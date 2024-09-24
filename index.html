@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=0.2">
+  <meta charset="utf-8">
+  <meta name="description"
+        content="FormerStereo">
+  <meta name="keywords" content="Stereo Matching">
+  <title>FormerStereo</title>
+
+
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-PYVRSFMDRL"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+
+    function gtag() {
+      dataLayer.push(arguments);
+    }
+
+    gtag('js', new Date());
+
+    gtag('config', 'G-PYVRSFMDRL');
+  </script>
+
+  <link href="https://fonts.googleapis.com/css?family=Google+Sans|Noto+Sans|Castoro"
+        rel="stylesheet">
+
+  <link rel="stylesheet" href="./static/css/bulma.min.css">
+  <link rel="stylesheet" href="./static/css/bulma-carousel.min.css">
+  <link rel="stylesheet" href="./static/css/bulma-slider.min.css">
+  <link rel="stylesheet" href="./static/css/fontawesome.all.min.css">
+
+
+  <link rel="stylesheet"
+        href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css">
+  <link rel="stylesheet" href="./static/css/index.css">
+  <link rel="icon" href="./static/images/Logo.png">
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script defer src="./static/js/fontawesome.all.min.js"></script>
+  <script src="./static/js/bulma-carousel.min.js"></script>
+  <script src="./static/js/bulma-slider.min.js"></script>
+  <script src="./static/js/index.js"></script>
+  <script src="./static/js/script.js"></script>
+</head>
+<body>
+
+<nav class="navbar" role="navigation" aria-label="main navigation">
+  <div class="navbar-brand">
+    <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false">
+      <span aria-hidden="true"></span>
+      <span aria-hidden="true"></span>
+      <span aria-hidden="true"></span>
+    </a>
+  </div>
+  <div class="navbar-menu">
+</nav>
+
+
+<section class="hero">
+  <div class="hero-body">
+    <div class="container is-max-desktop">
+      <div class="columns is-centered">
+        <div class="column has-text-centered">
+          <!--主标题和副标题-->
+          <h1 class="title is-1 publication-title"><img id="painting_icon" width=90px src="./static/images/logo.png" style="vertical-align: middle; margin-right: 0px; position: relative; top: -8px;"> FormerStereo</h1>
+          <h1 class="title is-2 publication-title">Learning Representations from Foundation Models for Domain Generalized Stereo Matching</h1>
+
+          <!--作者列表及作者主页-->
+          <div class="is-size-5 publication-authors">
+            <br>
+            <span class="author-block">
+              <a href="https://github.com/zhangyj85">Yongjian Zhang</a><sup>1</sup></a>&nbsp</a>&nbsp</a>&nbsp</a>&nbsp  
+            </span>
+            <span class="author-block">
+              <a>Longguang Wang</a><sup>2</sup></a>&nbsp</a>&nbsp</a>&nbsp
+            </span>
+            <span class="author-block">
+              <a>Kunhong Li</a><sup>1</sup></a>&nbsp</a>&nbsp</a>&nbsp
+            </span>
+            <span class="author-block">
+              <a>Yun Wang</a><sup>3</sup></a>&nbsp</a>&nbsp</a>&nbsp
+            </span>
+            <span class="author-block">
+              <a>Yulan Guo</a><sup>1&dagger;</sup></a>&nbsp</a>&nbsp</a>&nbsp
+            </span>
+          </div>
+
+          <!--作者单位缩写-->
+          <div class="is-size-5 publication-authors">
+            <span class="author-block"><sup>1</sup>SYSU</a>&nbsp</a>&nbsp</a>&nbsp</a>&nbsp</a>&nbsp</a>&nbsp</a>&nbsp</a>&nbsp</a>&nbsp</a>&nbsp</a>&nbsp</a>&nbsp</a>&nbsp </span>
+            <span class="author-block"><sup>2</sup>AUAF</a>&nbsp</a>&nbsp</a>&nbsp</a>&nbsp</a>&nbsp</a>&nbsp</a>&nbsp</a>&nbsp</a>&nbsp</a>&nbsp</a>&nbsp</a>&nbsp</a>&nbsp </span>
+            <span class="author-block"><sup>3</sup>CUHK</span>&nbsp</a>&nbsp</a>&nbsp</a>&nbsp</a>&nbsp</a>&nbsp</a>&nbsp</a>&nbsp</a>&nbsp</a>&nbsp</a>&nbsp</a>&nbsp </span>
+          </div>
+
+          <!--符号意义-->
+          <div class="is-size-6 publication-authors">
+            <span class="author-block">&dagger; corresponding author</span></a>&nbsp</a>&nbsp</a>&nbsp</a>&nbsp</a>&nbsp</a>&nbsp</a>&nbsp
+          </div>
+
+          <!--发表地方-->
+          <div class="column has-text-centered">
+            <div class="is-size-5 publication-authors">
+              <span class="author-block"><b>ECCV 2024</b></span>
+            </div>
+          </div>
+
+          <div class="column has-text-centered">
+            <div class="publication-links">
+              <!--论文地址-->
+              <span class="link-block">
+                <a href="输入网址" target="_blank"
+                  class="external-link button is-normal is-rounded is-dark">
+                  <span class="icon">
+                    <i class="fas fa-file-pdf"></i>
+                  </span>
+                  <span>Paper</span>
+                </a>
+              </span>
+              <!--代码地址-->
+              <span class="link-block">
+                <a href="输入网址" target="_blank"
+                  class="external-link button is-normal is-rounded is-dark">
+                  <span class="icon">
+                    <i class="fab fa-github"></i>
+                  </span>
+                  <span>Code</span>
+                </a>
+              </span>
+              <!--模型权重地址-->
+              <span class="link-block">
+                <a href="输入网址" target="_blank"
+                  class="external-link button is-normal is-rounded is-dark">
+                  <span class="icon">
+                    <i class="fas fa-share-square"></i>
+                  </span>
+                  <span>Model</span>
+                </a>
+              </span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<section class="hero teaser">
+  <div class="container is-max-desktop">
+    <div class="hero-body">
+      <img id="teaser" width="100%" src="./static/images/teaser.png"/>
+    </div>
+  </div>
+</section>
+
+
+<section class="hero teaser">
+  <div class="container is-max-desktop">
+    <div class="hero-body">
+      <h4 class="subtitle has-text-centered">
+        <div class="content has-text-justified"> 
+          <p>
+            FormerStereo is only trained on SceneFlow with 35k stereo pairs, enhancing the generalized performance for most stereo baseline like PSMNet and RAFT-Stero. Our proposed FormerStereo is equipped with the following features:
+            <ul type="1">
+              <li>adapted to a wide range of foundation models: DINOv2, DAM and SAM.</span></li>
+              <li>adapted to a wide range of stereo aggregation baselines: PSMNet, GwcNet, CFNet and RAFT-Stereo.</span></li>
+              <li>optimal out-of-domain generalization performance on realist datasets.</span></li>
+            </ul>
+            We also update our framework with a better adaptor design. We will release the improved baseline in the near future.
+          </p>
+          <p>
+            
+          </p>
+        </div>
+      </h4>
+      
+    </div>
+  </div>
+</section>
+
+
+<section class="section">
+  <div class="container is-max-desktop">
+    <!-- Abstract. -->
+    <div class="columns is-centered has-text-centered">
+      <div class="column is-four-fifths">
+        <h2 class="title is-4">Abstract</h2>
+        <div class="content has-text-justified">
+          <p>
+            State-of-the-art stereo matching networks trained on in-domain data often underperform on cross-domain scenes. Intuitively, leveraging the zero-shot capacity of a foundation model can alleviate the cross-domain generalization problem. The main challenge of incorporating a foundation model into stereo matching pipeline lies in the absence of an effective forward process from single-view coarse-grained tokens to cross-view fine-grained cost representations. In this paper, we propose FormerStereo, a general framework that integrates the Vision Transformer (ViT) based foundation model into the stereo matching pipeline. Using this framework, we transfer the all-purpose features to matching-specific ones. Specifically, we propose a reconstruction-constrained decoder to retrieve fine-grained representations from coarse-grained ViT tokens. To maintain cross-view consistent representations, we propose a cosine-constrained concatenation cost (C4) space to construct cost volumes. We integrate FormerStereo with state-of-the-art (SOTA) stereo matching networks and evaluate its effectiveness on multiple benchmark datasets. Experiments show that the FormerStereo framework effectively improves the zero-shot performance of existing stereo matching networks on unseen domains and achieves SOTA performance.
+          </p>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+
+<!--强调一下我们方法的优势-->
+<section class="section">
+  <div class="container is-max-desktop">
+    <div class="columns is-centered">
+    <div class="columns is-centered">
+      <div class="column is-four-fifths">
+        <h2 class="title is-4" style="text-align: center;">Data Coverage</h2>
+          <div class="content has-text-justified">
+            <p>
+              Our FormerStereo is <b>only trained on SceneFlow</b> with 35k stereo pairs, and quantitatively evaluate on the training subset of four popular realistic datatsets including KITTI 2015, KITTI 2012, Middlebury and ETH3D. We also qualitatively validate the improvement on Driving Stereo  and Oxford Robot Car.            </p>
+          </div>
+</section>
+
+
+<!--逐项展示我们的实验结果-->
+<section class="section">
+  <div class="container is-max-desktop">
+    <div class="columns is-centered">
+    <div class="columns is-centered">
+      <div class="column is-four-fifths">
+        <h2 class="title is-4" style="text-align: center;">Zero-shot Generalization Estimation</h2>
+          <div class="content has-text-justified">
+            <p>
+              Former-integrated methods are better than the previously best model HVT.
+            </p>
+          </div>
+
+          <div class="image-area">
+            <img src="./static/images/zero-shot-comparison.png" alt="pipeline" width="100%">
+          </div>
+</section>
+
+
+<section class="section">
+  <div class="container is-max-desktop">
+    <div class="columns is-centered">
+      <div class="column is-four-fifths">
+        <h2 class="title is-4" style="text-align: center;">Framework</h2>
+        <div class="content has-text-justified">
+          <p>
+            The framework of FormerStereo is shown below.  The stereo images are first fed into a frozen ViT backbone to extract features. These ViT features are then transformed into fine-grained representations by the feature transformation module. We use these fine-grained representations to construct the C4 space, which is subsequently converted to disparity by any cost aggregation algorithm.          </p>
+        </div>
+
+        <div class="image-area">
+          <img src="./static/images/pipeline.png" alt="pipeline" width="100%">
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<section class="section pt-0" id="BibTeX">
+  <div class="container is-max-desktop content">
+    <h2 class="title is-4">Citation</h2>
+    <pre class="selectable"><code>@inproceedings{formerstereo,
+  title={Learning Representations from Foundation Models for Domain Generalized Stereo Matching},
+  author={Yongjian Zhang, Longguang Wang, Kunhong Li, Yun Wang, and Yulan Guo},
+  booktitle={ECCV},
+  year={2024}
+}</code></pre>
+  </div>
+</section>
+
+
+<footer class="footer">
+  <div class="container">
+    <div class="content has-text-centered">
+      <!--放论文地址-->
+      <a class="icon-link"
+         href="https://arxiv.org/pdf/2401.10891.pdf">
+        <i class="fas fa-file-pdf"></i>
+      </a>
+      <!--放代码地址-->
+      <a class="icon-link" href="https://github.com/LiheYoung/Depth-Anything" class="external-link" disabled>
+        <i class="fab fa-github"></i>
+      </a>
+    </div>
+    <div class="columns is-centered">
+      <div class="content">
+        <p>
+          The template is borrowed from <a href="https://github.com/Depth-Anything/Depth-Anything.github.io">Depth Anything</a>
+        </p>
+      </div>
+    </div>
+  </div>
+</footer>
+
+</body>
+</html>
